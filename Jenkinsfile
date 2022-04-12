@@ -21,18 +21,8 @@ stages      //it contains all the stages
     {
         steps{ sh 'Code id Building'}
     }
-    stage('Deploy package to dev server')
-    {
-        steps{ sh 'deploy package to dev server' }
-    }
-    stage('Deploy package to qa server')
-    {
-        steps{sh 'Deploying to qa'}
-    }
-    stage('Deploy package to prod server')
-    {
-        steps{sh 'Deploying to prod'}
-    }
+   
+    
          }
 
 
