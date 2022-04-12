@@ -23,15 +23,15 @@ stages      //it contains all the stages
     }
     stage('Deploy package to dev server')
     {
-        steps{sh 'deploy package to dev server'}
+        steps{ sh 'deploy package to dev server' }
     }
     stage('Deploy package to qa server')
     {
-        Steps{sh 'Deploying to qa'}
+        steps{sh 'Deploying to qa'}
     }
     stage('Deploy package to prod server')
     {
-        Steps{sh 'Deploying to prod'}
+        steps{sh 'Deploying to prod'}
     }
          }
 
